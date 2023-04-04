@@ -1,14 +1,12 @@
 {
-  "name": "weather-app",
+  "name": "weatherAPI",
   "version": "1.0.0",
   "description": "Weather App using an API",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open"
+    "build": "webpack --config webpack.config.js"
   },
-  "author": "fidalgo",
+  "author": "ruperth",
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
@@ -33,5 +31,14 @@
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.1.14"
   },
-  "browserslist": "> 0.25%, not dead"
+  "browserslist": "> 0.25%, not dead",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruperthnyagesoa/weatherAPI-project.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ruperthnyagesoa/weatherAPI-project/issues"
+  },
+  "homepage": "https://github.com/ruperthnyagesoa/weatherAPI-project#readme"
 }
